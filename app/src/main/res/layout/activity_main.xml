@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.fivegamesubisofthadpublished.MainActivity"
+    android:padding="0dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:background="#000000">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextClock
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textClock"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="right"
+                android:textColor="#b5b5b5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All information below is refered to the Wikipedia, this application is only for the final project and not related to Ubisoft."
+                android:id="@+id/notice"
+                android:layout_below="@+id/textClock"
+                android:layout_alignStart="@+id/scrollView"
+                android:gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ubisoft"
+                android:id="@+id/Topic"
+                android:textColor="#2e90ff"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_below="@+id/textClock"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubisoft is a France company founded in 1986 which has many studios in the worldwide to public different video games. In this application, it would introduce 5 popular games Ubisoft has been published."
+                android:id="@+id/textViewContent"
+                android:layout_below="@+id/Topic"
+                android:layout_alignStart="@+id/scrollView"
+                android:padding="5dp"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#dee4ff"
+                android:layout_marginTop="15dp"
+                android:visibility="visible">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prince of Persia series"
+                    android:id="@+id/buttonGameOne"
+                    android:layout_centerVertical="true"
+                    android:layout_alignStart="@+id/scrollView"
+                    android:layout_marginTop="0dp"
+                    android:background="#92a4ff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewGameOneContent"
+                    android:visibility="gone"
+                    android:text="This series is not originally published by Ubisoft. As a result, this session would only introduce the game that is published by Ubisoft. It is a third-person action adventure puzzle-platform video game."
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More details..."
+                    android:id="@+id/textViewDetailsOne"
+                    android:layout_gravity="right"
+                    android:textColor="#1dcdde"
+                    android:textStyle="bold|italic"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:background="#dee4ff">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tom Clancy&apos;s Splinter Cell series"
+                    android:id="@+id/buttonGameTwo"
+                    android:layout_below="@+id/buttonGameOne"
+                    android:layout_alignStart="@+id/scrollView"
+                    android:layout_marginTop="0dp"
+                    android:background="#92a4ff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewGameTwoContent"
+                    android:visibility="gone"
+                    android:text="The first game of this series is published in 2002, called Tom Clancy’s Splinter Cell. It is an action-adventure and stealth game."
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More details..."
+                    android:id="@+id/textViewDetailsTwo"
+                    android:layout_gravity="right"
+                    android:textColor="#1dcdde"
+                    android:textStyle="bold|italic"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:background="#dee4ff">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Assassin Creed Series"
+                    android:id="@+id/buttonGameThree"
+                    android:layout_below="@+id/buttonGameTwo"
+                    android:layout_alignStart="@+id/scrollView"
+                    android:background="#92a4ff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewGameThreeContent"
+                    android:visibility="gone"
+                    android:text="It is an action-adventure video game, the first game of that series is published in 2007."
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More details..."
+                    android:id="@+id/textViewDetailsThree"
+                    android:layout_gravity="right"
+                    android:textColor="#1dcdde"
+                    android:textStyle="bold|italic"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:background="#dee4ff">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Far Cry Series"
+                    android:id="@+id/buttonGameFour"
+                    android:layout_below="@+id/buttonGameThree"
+                    android:layout_alignStart="@+id/scrollView"
+                    android:background="#92a4ff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewGameFourContent"
+                    android:visibility="gone"
+                    android:text="It is a first-person shooter computer and video game (FPS), the first game of this series is published in 2004."
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More details..."
+                    android:id="@+id/textViewDetailsFour"
+                    android:layout_gravity="right"
+                    android:textColor="#1dcdde"
+                    android:textStyle="bold|italic"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:background="#dee4ff">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Watch Dogs"
+                    android:id="@+id/buttonGameFive"
+                    android:layout_below="@+id/buttonGameFour"
+                    android:layout_alignStart="@+id/scrollView"
+                    android:background="#92a4ff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewGameFiveContent"
+                    android:singleLine="false"
+                    android:visibility="gone"
+                    android:text="It is an action-adventure third-person shooter stealth game, it is published in 2014 at Windows, PS3, PS4, X360, XBO, Wii U platform."
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More details..."
+                    android:id="@+id/textViewDetailsFive"
+                    android:layout_gravity="right"
+                    android:textColor="#1dcdde"
+                    android:textStyle="bold|italic"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

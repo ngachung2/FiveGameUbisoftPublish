@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.fivegamesubisofthadpublished.GameTwo"
+    android:padding="0dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#000000" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tom Clancy's Splinter Cell series"
+                android:id="@+id/GameTwoTopic"
+                android:width="350dp"
+                android:textColor="#04ff00"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:background="#acacac" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#b8b8b8"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tom Clancy's Splinter Cell series"
+                    android:id="@+id/textView10"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#10c000"
+                    android:textStyle="bold"
+                    android:padding="10dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView11"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/tom" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12"
+                    android:layout_margin="10dp"
+                    android:visibility="visible"
+                    android:text="In 1996, Clancy co-founded the video game developer Red Storm Entertainment and ever since he has had his name on several of Red Storm&apos;s most successful games. Red Storm was later bought by publisher Ubisoft Entertainment, which continued to use the Clancy name, though the extent of Clancy&apos;s actual involvement with creation of the games and development of intellectual properties, if any, was unclear. This game series includes: The Hunt for Red October (1987): Submarine simulation loosely based on the novel of the same name. Produced by Grandslam Entertainment for IBM PC, C64, and Amiga. Red Storm Rising (1988): Submarine sim loosely based on the novel of the same name. Produced by MicroProse for IBM PC, C64, and Amiga. The Hunt for Red October (1990): Submarine sim based on the movie of the same name. Produced by Grandslam Entertainment for Amiga, Amstrad CPC, Atari ST, Commodore 64, DOS, ZX Spectrum. The Hunt for Red October (1990): Submarine sim based on the movie of the same name. Produced for Nintendo Entertainment System, Game Boy, and Super NES. SSN (1996): Submarine sim based on the novel of the same name. Produced by Simon &amp; Schuster Interactive for IBM PC. ruthless.com (1998) by Red Storm Entertainment: Strategy game based loosely on the book of the same name. Shadow Watch (2000): Turn-based strategy based on the Power Play novel of the same name.[1] The Sum of All Fears (2002): Tactical first-person shooter similar in style to Rainbow Six, but based on the Ghost Recon engine. The plot is based on the movie of the same name. Produced by Ubisoft for the IBM PC and Nintendo GameCube system. Tom Clancy&apos;s The Division (2016): Online open world third-person shooter role-playing video game with survival elements. Produced by Ubisoft Massive for Microsoft Windows, PlayStation 4, and Xbox One.\nAll information is copied from Wikipedia.\n(References:https://en.wikipedia.org/wiki/Tom_Clancy%27s#History)" />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:id="@+id/buttonBack"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="191dp"
+                android:layout_gravity="right"
+                android:layout_margin="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
