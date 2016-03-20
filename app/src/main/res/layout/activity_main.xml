@@ -33,7 +33,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="All information below is refered to the Wikipedia, this application is only for the final project and not related to Ubisoft."
+                android:text="All information below is refered to the Wikipedia, this application is only for the final project."
                 android:id="@+id/notice"
                 android:layout_below="@+id/textClock"
                 android:layout_alignStart="@+id/scrollView"
